@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Easy Slider jQuery Plugin Demo</title>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />    
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/easySlider1.7.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){	
+			$("#slider").easySlider({
+				auto: false, 
+				continuous: true
+			});
+		});	
+	</script>
+	
+<link href="css/screen.css" rel="stylesheet" type="text/css" media="screen" />
+<style>
+.sliderN{ float: left; width:695px;}
+.sliderN .img_slider{ display:inline; float: left; width:320px;}
+.sliderN .des_slider{ display:inline; float: left; width:370px;}	
+	.des_slider p.title_slider{ float: left; width:370px;}
+	.des_slider p.txt_slider{width370px;}
+</style>	
+</head>
+<body>
+
+<div id="container">
+
+	<div id="header">
+		<h1>Easy Slider jQuery Plugin - continuous demo</h1>
+	</div>
+
+	<div id="content">
+	
+		<div id="slider">
+			<ul>				
+				<li>
+					<div class="sliderN">
+						<div class="img_slider"><img src="images/slide-1.png" width="320" height="227" alt="slider1" /></div>
+						<div class="des_slider">
+							<p class="title_slider">Your Third Slide Goes Here</p>
+							<p class="txt_slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in sapien quis enim malesuada cursus. Nulla pharetra orci et quam egestas aliquam.</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="sliderN">
+						<div class="img_slider"><img src="images/slide-2.png" width="320" height="227" alt="slider2" /></div>
+						<div class="des_slider">
+							<p class="title_slider">Your Third Slide Goes Here</p>
+							<p class="txt_slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in sapien quis enim malesuada cursus. Nulla pharetra orci et quam egestas aliquam.</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="sliderN">
+						<div class="img_slider"><img src="images/slide-3.png" width="320" height="227" alt="slider3" /></div>
+						<div class="des_slider">
+							<p class="title_slider">Your Third Slide Goes Here</p>
+							<p class="txt_slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in sapien quis enim malesuada cursus. Nulla pharetra orci et quam egestas aliquam.</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+			
+		<h3>Usage</h3>
+	
+<pre>$(document).ready(function(){	
+	$("#slider").easySlider({
+		auto: true,
+		continuous: true 
+	});
+});</pre>
+	
+		<p><a href="http://cssglobe.com/post/5780/easy-slider-17-numeric-navigation-jquery-slider" title="read more about this jquery plugin">back to the article</a></p>
+		
+		<p><strong>Easy Slider</strong> jQuery Plugin is brought to you by <a href="http://cssglobe.com" title="web standards magazine and css news">Css Globe</a> and supported by <a href="http://templatica.com">Css Templates</a> by Templatica</p>
+
+	</div>
+
+</div>
+
+</body>
+</html>
